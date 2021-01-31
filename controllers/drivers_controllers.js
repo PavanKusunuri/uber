@@ -1,4 +1,4 @@
-const { create } = require("../models/driver");
+const Driver = require('../models/driver');
 
 module.exports = {
     greeting(req, res) {
